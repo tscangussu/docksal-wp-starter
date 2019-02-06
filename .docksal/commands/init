@@ -87,10 +87,10 @@ echo "Waiting 10s for MySQL to initialize...";
 sleep 10
 
 # Project initialization steps
-echo -e "${green_bg} Step 2 ${NC}${green} Generating wp-config.php...${NC}"
-generate_config
+# echo -e "${green_bg} Step 2 ${NC}${green} Generating wp-config.php...${NC}"
+# generate_config
 
-echo -e "${green_bg} Step 3 ${NC}${green} Installing site...${NC}"
+echo -e "${green_bg} Step 2 ${NC}${green} Installing site...${NC}"
 time site_install
 
 
