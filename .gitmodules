@@ -1,4 +1,0 @@
-[submodule "docroot/wp"]
-	path = docroot/wp
-	url = https://github.com/WordPress/WordPress.git
-	branch = 5.0-branch
